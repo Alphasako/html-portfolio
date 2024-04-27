@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alphadjo</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css">
+
+<style>
+
+
+</style>
+<body>
+
+  <div id="scroll" class="up-button ">
+  
+    <a class="arrow-icon" href="#top"> <img class="arrow-icon"src="./assets/icons/arrow-up.png"> </a>
+
+
+</div>
+
+
+  <!-- navbar starts -->
+
+  <div id="top" class="container" >
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Alphadjo</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#home" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </div>
+  
+<!-- navbar ends -->
+
+
+
+  <div id="home" class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img id="my-img" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" src="./assets/images/dopha.png" onmouseover="hover(this);" onmouseout="unhover(this);" />
+
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi</h1>
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I'm Alphadjo Sako. </h1>
+        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Full Stack Developer</h2>
+
+        <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div id="about" class="profil-section">
+    <div class="container col-xxl-8 px-4 py-5 ">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      
+        <div class="col-lg-6">
+          <h1 class="profil-text-title">I'm Alphadjo Sako. </h1>
+          <p class="profil-text-detail">Welcome to my universe! I am a developer passionate about creativity, coding, and new projects. I love developing mobile front-end apps with Swift and Angular. Check out my projects and stay in touch.</p>
+  
+          <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          </div> -->
+        </div>
+  
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/images/profil-picture.png" class="d-block mx-lg-auto img-fluid profil-img" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+
+    <!-- Title -->
+    <!-- <section id="title" class="hero-content">
+
+
+      <div class="header-left">
+        <img class="profile-img" src="./images/dopha.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+
+
+      <div class="header-right">
+        <h1 class="">Hi</h1>
+        <h1 class="">I'm Alphadjo Sako</h1>
+        <h1 class="">Developper Mobile</h1>
+
+      </div>
+
+
+    </section> -->
+
+
+ <!-- About me -->
+
+
+
+
+ <!-- skils -->
+
+
+  <!-- Portfolio -->
+<div id="projects" class="section-content portfolio-section">
+  <div class="container portfolio-grid">
+    <div class="project-content">
+      <img class="project-icon" src="./assets/images/foodAllergy.png">
+      <p class="project-title">Food Allergy Card</p>
+      <p>"Communicate easily about your food allergies!"</p>
+      <div class="button-group">
+        
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('foodIos')"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-apple mb-1" viewBox="0 0 16 16">
+            <path
+                              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            <path
+                              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            </svg>
+        </button>
+
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('foodAndroid')"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+            <path
+                              d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+            </svg>
+        </button>
+
+        <button class="project-button btn btn-light "
+        onclick="redirectToUrl('foodWeb')">
+          <img class="web-image" src="./assets/images/web.png">
+        </button>
+        
+        <!-- Buttons and SVG icons here -->
+      </div>
+      
+    </div>
+    <div class="project-content">
+      <img class="project-icon" src="./assets/images/speaker.png">
+      <p class="project-title">Speak Control</p>
+      <p>"Calculate easily your speak speed."</p>
+      <div class="button-group">
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('speakIos')"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-apple mb-1" viewBox="0 0 16 16">
+            <path
+                              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            <path
+                              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            </svg>
+        </button>
+
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('speakAndroid')"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+            <path
+                              d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+            </svg>
+        </button>
+
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('speakWeb')"
+        >
+          <img class="web-image" src="./assets/images/web.png">
+        </button>
+        <!-- Buttons and SVG icons here -->
+      </div>
+      
+    </div>
+
+    <div class="project-content">
+      <img class="project-icon" src="./assets/images/busted.png">
+      <p class="project-title">Busted</p>
+      <p>“Busted improves your travel by the use of public transport”</p>
+      <div class="button-group">
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('bustedIos')"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-apple mb-1" viewBox="0 0 16 16">
+            <path
+                              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            <path
+                              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            </svg>
+        </button>
+
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('bustedAndroid')"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+            <path
+                              d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+            </svg>
+        </button>
+
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('bustedWeb')"
+        >
+          <img class="web-image" src="./assets/images/web.png">
+        </button>
+        <!-- Buttons and SVG icons here -->
+      </div>
+      
+    </div>
+
+
+    <div class="project-content">
+      <img class="project-icon" src="assets/projects/localoca.png">
+      <p class="project-title">LocaLoca</p>
+      <p>“Share all the interesting events and activities around you with the world”</p>
+      <div class="button-group">
+
+   
+
+  
+
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('localocaGit')"
+        >
+         <!--   <img class="web-image" src="./assets/icons/github.png"> -->
+        </button>
+        <!-- Buttons and SVG icons here -->
+      </div>
+      
+    </div>
+
+
+    <div class="project-content">
+      <img class="project-icon" src="assets/projects/venty.png">
+      <p class="project-title">Venty</p>
+      <p>“Easily create and manage your personal event”</p>
+
+      <div class="button-group">
+
+   
+
+  
+
+        <button class="project-button btn btn-light"
+        onclick="redirectToUrl('ventyGit')"
+        >
+        <!--   <img class="web-image" src="./assets/icons/github.png"> -->
+        </button>
+        <!-- Buttons and SVG icons here -->
+      </div>
+      
+    </div>
+
+
+  </div>
+</div>
+ 
+
+<!-- skills section starts -->
+<div id="skills" class="section-content skills-section">
+ 
+
+  <div id="skillsContainer" class="container skills-grid">
+    
+</div>
+</div> 
+<!-- skills section ends -->
+
+
+
+<div class="section-content experience-section">
+
+
+</div>
+
+
+
+  <!-- Footer -->
+  <div id="contact" class="section-content contact-section">
+
+  
+
+    <div class="container">
+  
+      <div class="contact-container">
+        <div>
+          <img class="contact-icon"src="./assets/contact/email.png">
+          <span class="contact-text">alpha.sako@gmail.com</span>
+        </div>
+  
+        <div>
+          <img class="contact-icon"src="./assets/contact/linkedin.png"
+          onclick="redirectToUrl('linkedin')"
+          >
+          <span class="contact-text">Alphadjo Sako</span>
+        </div>
+   
+      </div>
+  
+  
+    </div>
+  </div>
+  
+
+  <!-- Footer -->
+  <section id="footer">
+
+  
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+  
+          <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link px-2 text-body-secondary">Skills</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Alphadjo Sako</p>
+      </footer>
+    </div>
+  </section>
+  
+
+
+ 
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
